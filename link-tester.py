@@ -28,3 +28,4 @@ if __name__ == "__main__":
     for url in urls:
         is_404, message = is_essias_or_target_404(url)
         print(message)
+        
